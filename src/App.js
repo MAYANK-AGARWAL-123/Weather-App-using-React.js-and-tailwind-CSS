@@ -20,7 +20,7 @@ import {
   BsWater,
   BsThermometer,
   BsWind,
-  BsCloudDrizzle,
+  // BsCloudDrizzle,
 } from 'react-icons/bs';
 
 import { TbTemperatureCelsius } from 'react-icons/tb';
@@ -134,6 +134,8 @@ const App = () => {
       break;
     case 'Thunderstorm':
       icon = <IoMdThunderstorm />;
+      break;
+    default:
       break;
   }
 
